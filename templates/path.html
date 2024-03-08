@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caminho</title>
+</head>
+<body>
+    <h1>Caminho</h1>
+    {% for path in paths %}
+        <p>Estes são os coordenadas do caminho solicitado.</p>
+        <p>X: {{ path.coordinates.x }}</p>
+        <p>Y: {{ path.coordinates.y }}</p>
+        <p>Z: {{ path.coordinates.z }}</p>
+        <p>R: {{ path.coordinates.r }}</p>
+    {% endfor %}
+</body>
+</html>

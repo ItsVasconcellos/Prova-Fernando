@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caminho</title>
+</head>
+<body>
+    <h1>Caminho</h1>
+    <p>ID e Nome das posições salvas:.</p>
+    {% for path in paths %}
+        <p>Name : {{ path.nome }}</p>
+        <p>Id: {{ path.doc_id}}</p>
+    {% endfor %}
+</body>
+</html>
